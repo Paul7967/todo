@@ -1,3 +1,6 @@
+Todo application is created durin course "React+Redus" for learnin all fearures of Ract.
+
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +69,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# todo
+Todo list application created with Reactjs library during "React+Redux" course on Udemy.com
+>>>>>>> bcdbf2e2f97f12ea938ee81e15c1818c002cf625
