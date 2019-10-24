@@ -15,10 +15,14 @@ export default class ItemAddForm extends Component {
 
 	onSubmit = (e) => {
 		e.preventDefault();
-		this.props.onItemAdded(this.state.label);
-		this.setState({
-			label: ''
-		});
+		if (this.state.label.length>0) {
+			this.props.onItemAdded(this.state.label);
+			this.setState({
+				label: ''
+			});
+		} else {
+			alert('Input the task text!');
+		};
 	};
 
 	render () {

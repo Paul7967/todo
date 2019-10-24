@@ -12,10 +12,10 @@ export default class TodoListItem extends Component {
 	// };
 
 
-	constructor() {
-		super();
+	// constructor() {
+	// 	super();
 		
-	};
+	// };
 
 	render () {
 		const { label, onDeleted, onToggleImportant, 
